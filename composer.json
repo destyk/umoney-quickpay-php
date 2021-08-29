@@ -1,0 +1,27 @@
+{
+    "name": "destyk/umoney-quickpay-php",
+    "type": "library",
+    "version": "0.0.1",
+    "description": "Universal payments API SDK",
+    "license": "MIT",
+    "homepage": "https://github.com/destyk/umoney-quickpay-php",
+    "support": {
+        "issues": "https://github.com/destyk/umoney-quickpay-php/issues"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DestyK\\UMoney\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.0"
+        }
+    }
+}
