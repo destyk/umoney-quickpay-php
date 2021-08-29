@@ -15,9 +15,9 @@
         "phpdocumentor/phpdocumentor": "2.8.*"
     },
     "autoload": {
-        "psr-4": {
-            "DestyK\\UMoney\\": "src/"
-        }
+        "classmap": [
+            "src"
+        ]
     },
     "config": {
         "platform": {
